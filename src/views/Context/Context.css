@@ -1,0 +1,122 @@
+.NavBar{
+    margin-top: 2%;
+}
+.selected {
+    font-Weight: "bold";
+    color: "red";
+}
+.bannerContainer{
+    background-color: aquamarine;
+    height: 100px;
+    width: 500px;
+}
+
+.logoContainer{
+    height: 100px;
+    width: 100px;
+}
+
+.questionContainer{
+    margin-top: 20px;
+    border-bottom: 1px solid #c8ced3;
+    padding: 10px;
+}
+.video-editor-lab .video-wrapper{ text-align: center;}
+.video-editor-lab .video-wrapper video{border-radius:4px;}
+.video-editor-lab .row  [class*="col-"]{margin-bottom:1rem;}
+.video-editor-lab .form-field label{font-size:16px; font-weight: 500;}
+.video-editor-lab .form-field{background: #f7f7f7;padding: 1rem;border-radius: 3px;min-height: 100%;    }
+.video-editor-lab .form-field .custom-file{position: relative;display: inline-block;width: 100%;height: 40px;margin-bottom: 0;background: #39b2d5;color: #fff;padding: 7px 10px 0 10px;border-radius: 2px; margin-bottom:1rem;}
+.video-editor-lab .form-field img{max-width: 100%;}
+.video-editor-lab .video-logo-upload  .preview-image{width: 100px;height: 100px;border-radius: 100%;object-fit: contain;object-position: center;border: 3px solid #eaeaea;background: #fbfbfb;}
+.video-editor-lab .banner-upload .preview-image{border: 3px solid #eaeaea;background: #fbfbfb;    height: 100px;object-fit: contain;}
+.upload-file-btn{width: 100%;border: 2px dashed #fafafa;height: 70px;background: #39b2d5;padding: 19px 44px;color: #fff;}
+.video-wrapper{position: relative;max-width: 900px;margin: 2rem auto 0;}
+.video-wrapper [class*="base-logo"]{position: absolute; top:10px;}
+.video-wrapper [class*="base-logo"].base-logo{left:10px;}
+.video-wrapper [class*="base-logo"].c-base-logo{right:10px;}
+.video-wrapper [class*="base-logo"]> img{width:60px; height:60px; border-radius:100%; object-fit: contain; object-position:center; opacity: 0.6; cursor: pointer;}
+.video-wrapper [class*="base-logo"]> img:hover{opacity: 1;}
+.video-wrapper .qa-content{    position: absolute;bottom: 0;width: 100%;background: rgba(0,0,0,0.7); left:0px; color:#fff;}
+.video-wrapper .qa-content .qa-item-list{padding:1rem;}
+.video-wrapper .qa-content .qa-item-list h4.title{font-size: 26px; margin-bottom: 1.5rem;}
+.video-wrapper .qa-content .qa-item-list .qa-options input{position: absolute; opacity: 0; visibility: hidden;}
+.video-wrapper .qa-content .qa-item-list .qa-options{display: flex; display: -webkit-flex; justify-content: space-between;}
+.video-wrapper .qa-content .qa-item-list .qa-options label{margin-bottom: 0px;  flex:0 0 30%; cursor: pointer; max-width:24%;}
+.video-wrapper .qa-content .qa-item-list .qa-options label span{ background-color: #fff; color:#000; font-size: 14px; display:block;padding:10px; font-size: 14px; }
+
+
+
+/*  
+============================================*/
+
+.advert-video-wrapper,
+.advert-video-group {
+    clear: both;
+    position: relative;
+    width: 100%;
+}
+
+.advert-video-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.advert-video-group .advert-video-box {
+    width: 100%;
+    padding: 15px;
+}
+.video-card {
+    position: relative;
+    width: 100%;
+    padding: 25px 30px;
+    background: #ffffff;
+    border: 1px solid rgba(0,0,0,0.20);
+    border-radius: 7px;
+    -webkit-box-shadow: 0 5px 15px -7px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0 5px 15px -7px rgba(0,0,0,0.1);
+    box-shadow: 0 5px 15px -9px rgba(0,0,0,0.1);
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.video-card .video-image-group{
+    width: 200px;
+}
+
+.video-card .video-image-group img{
+    width: 100%;
+}
+.video-card .video-details-group {
+    width: calc(100% - 250px);   
+}
+.video-card .video-details-group .group-title {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 5px;
+    color: #000;
+}
+.video-card .video-details-group .group-details {
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #999999;
+    margin-bottom: 0;
+}
+.video-card .video-details-group .group-details strong{
+    font-weight: 600;
+    color: #333333;   
+}
+.video-card .video-details-group .group-details span{
+    padding: 0 15px 0 7px;
+}
+.video-card .video-details-group .group-filds {
+    margin-top: 10px;
+}

@@ -1,0 +1,9 @@
+// Your variable overrides
+// $body-bg: #000;
+// $body-color: #111;
+$theme-colors: (
+  "primary": #e3560d,
+);
+
+// CoreUI and its default variables
+@import "../../node_modules/@coreui/coreui/scss/coreui";
