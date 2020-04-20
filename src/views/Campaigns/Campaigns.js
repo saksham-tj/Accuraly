@@ -24,6 +24,7 @@ import {
   DropdownToggle,
   DropdownMenu,
   DropdownItem,
+  Container,
 } from "reactstrap";
 import { frontendRoutes, backendRoutes } from '../../utils/constants';
 import CustomPagination from '../../customComponents/CustomPagination';
@@ -314,7 +315,7 @@ export default function Campaigns(props) {
   }
 
   return (
-    <div className="container">
+    <Container fluid={true}>
       <div className="animated fadeIn">
         <Row>
           <Col xl={12}>
@@ -351,7 +352,7 @@ export default function Campaigns(props) {
           </Col>
         </Row>
       </div>
-    </div>
+    </Container>
   )
 
 }

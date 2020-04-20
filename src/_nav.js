@@ -30,6 +30,11 @@ export default {
       name: frontendRoutes.campaigns.name,
       url: frontendRoutes.campaigns.path,
       icon: "cui-user"
+    },
+    {
+      name: frontendRoutes.ads.name,
+      url: frontendRoutes.ads.path,
+      icon: "cui-user"
     }
   ]
 };

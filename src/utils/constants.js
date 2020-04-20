@@ -6,10 +6,8 @@ export const backendRoutes = {
   UPLOAD_LOGO: "logos",
   UPLOAD_CLIP: "clips",
   USERS: "users/",
-  CREATE_CONTEXT: "contexts/all",
-  GET_USER_PROFILE: "me/",
-  GET_CONTEXTS: "contexts/all?",
-  CAMPAIGN: 'campaign/'
+  CAMPAIGN: 'campaign/',
+  ADS: 'ad/'
 };
 
 export const frontendRoutes = {
@@ -21,10 +19,9 @@ export const frontendRoutes = {
   campaigns: { path: "/campaigns", name: "Campaigns" },
   createCampaigns: { path: "/campaigns/create", name: "Create Campaign" },
   editCampaigns: { path: "/campaigns/edit", name: "Edit Campaign" },
-  context: { path: "/content", name: "Content" },
-  createContext: {path: "/content/create", name: "Create Context"},
-  activeContext: {path: "/content/active", name: "Active Context"},
-  pendingContext: {path: "/content/pending", name: "Pending Context"},
+  ads: { path: "/ads", name: "Ads" },
+  createAds: { path: "/ads/create", name: "Ads Campaign" },
+  editAds: { path: "/ads/edit", name: "Ads Campaign" },
   users: { path: "/users", name: "Users" },
   createUser: { path: "/users/create", name: "Create" },
   user: { path: "/users/:id", name: "User Details" }
