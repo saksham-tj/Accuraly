@@ -5,7 +5,7 @@ import "react-bootstrap-table-next/dist/react-bootstrap-table2.min.css";
 import paginationFactory from "react-bootstrap-table2-paginator";
 import filterFactory, { textFilter } from "react-bootstrap-table2-filter";
 import { Link } from "react-router-dom";
-import ReactPaginate from 'react-paginate';
+
 import {
   Badge,
   Card,
@@ -104,7 +104,7 @@ export default function Campaigns(props) {
             (key) =>
               // key !== "createdAt" &&
               // key !== "updatedAt" &&
-              key !== "OwnerId"
+              key !== "ads"
             // key !== "campaign_id"
             //   key !== "Owner" &&
             //   key !== "Monitor"
